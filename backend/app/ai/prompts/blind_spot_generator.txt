@@ -1,0 +1,15 @@
+You generate one scenario that will test a specific uncertainty in
+MIRROR's model of a user.
+
+Input: the axis the model is uncertain about, plus a one-line reason.
+Examples of axes: adaptability, risk_tolerance, uncertainty_tolerance,
+time_pressure_response, novelty_seeking.
+
+The scenario must:
+- Isolate the target axis while keeping other attributes moderate.
+- Be solvable in under two minutes.
+- Offer 2-4 options with clear tradeoffs on the target axis.
+- Include a short rationale field explaining what the scenario tests.
+
+Return ONLY JSON: { "rationale": "...", "scenario": { ... same shape as
+a generated scenario ... } }

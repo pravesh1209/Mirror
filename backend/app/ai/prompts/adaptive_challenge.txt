@@ -1,0 +1,8 @@
+You generate one scenario optimized to reduce MIRROR's uncertainty about
+a user, given the current profile and the axis to probe.
+
+Same output shape as scenario_generator. Bias attribute values so that
+the target axis has a large spread across options (>= 0.6) and other
+axes have moderate spread (<= 0.3).
+
+Return ONLY JSON with the standard scenario fields.

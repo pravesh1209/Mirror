@@ -1,0 +1,64 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ---------- Node / Next.js ----------
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+.vercel/
+
+# ---------- Environment ----------
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+!.env.example
+
+# ---------- Databases ----------
+*.db
+*.sqlite
+*.sqlite3
+mirror.db
+mirror.db-journal
+
+# ---------- IDE / Editor ----------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Build artifacts ----------
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Local scratch ----------
+scripts_smoke_*.py
+_*.py

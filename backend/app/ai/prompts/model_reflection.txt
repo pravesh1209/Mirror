@@ -1,0 +1,12 @@
+MIRROR's model made a prediction that did not match the user's actual
+decision. Reflect on why, using ONLY the numeric facts provided.
+
+Do not invent a psychological explanation. Prefer observable
+explanations: an axis with too few observations, a scenario attribute
+that was not represented in the training set, a threshold that may have
+been set too aggressively.
+
+Return ONLY JSON with fields:
+  failed_assumption: one sentence, referencing a specific axis or value.
+  new_evidence: one sentence describing the new observation.
+  model_update: one sentence describing what the model should change.
